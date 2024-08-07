@@ -2,9 +2,9 @@ import React from 'react';
 
 const Cards = () => {
     return (
-        <div className='w-full py-[10rem] px-4 bg-white'>
+        <div className='w-full pt-[10rem] pb-0 px-4 bg-white'>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
-                <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+                <div className='w-full shadow-xl flex flex-col p-4 rounded-lg hover:scale-105 duration-300'>
                     <img className='w-20 mx-auto mt-[-3rem] bg-white' src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=400" alt="/" />
                     <h2 className='text-2xl font-bold text-center py-8'>Web development</h2>
                     <p className='text-center text-4xl font-bold'>$149</p>
@@ -26,7 +26,7 @@ const Cards = () => {
                     </div>
                     <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
                 </div>
-                <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+                <div className='w-full shadow-xl flex flex-col p-4 rounded-lg hover:scale-105 duration-300'>
                     <img className='w-20 mx-auto mt-[-3rem] bg-white' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXPG4cUz3VWW6HV3QdbaU8plQfdvrZdo-vQ&s" alt="/" />
                     <h2 className='text-2xl font-bold text-center py-8'>App Development</h2>
                     <p className='text-center text-4xl font-bold'>$149</p>
